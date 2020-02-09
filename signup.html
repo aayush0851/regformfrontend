@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="icon" type="png/jpg" href="/logo.png">
+    <title>Register Here!</title>
+</head>
+<body>
+    
+        <div class="container myform">
+            <div class="rtpt">
+               <img src="/pic.jpg"> 
+            </div>
+            <div class="lftpt">
+            
+                <form method="POST" action="/register" class="form-group"> 
+                    <h1>REGISTER HERE!</h1>
+                            <input type="text" for="name" class="form-control" placeholder="Name" required>
+                            <br>
+                    
+                            <select class="form-control col-md-6" for="branch" id="br" required> 
+                                <option value="">Branch</option>
+                                <option for="CS">CS</option>
+                                <option for="IT">IT</option>
+                                <option v="ECE">ECE</option>
+                                <option value="EN">EN</option>
+                                <option value="EI">EI</option>
+                                <option value="ME">ME</option>
+                                <option value="CE">CE</option>
+                            </select>
+                            <br>
+                            
+                           
+                            <select class="form-control col-md-6" name="year" id="yr" required> 
+                                <option value="">Year</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            
+                        
+                        <br>
+                        <input class="form-control" type="email" for="email" placeholder="E-Mail ID" required>
+                        <br>
+                        <input class="form-control" type="text" for="rollNumber" placeholder="University Roll Number" required>
+                        <br>
+                        <input class="form-control" type="text" for="userName" placeholder="HackerRank User Name" required>
+                        <br>
+                    
+                            <select class="form-control col-md-6" name="residency" id="res" required>
+                                <option value="">Hostler/Day Scholar</option>
+                                <option value="Hostler">Hostler</option>
+                                <option value="Day Scholar">Day Scholar</option>
+                            </select>
+                            <br>
+                            <input class="form-control col-md-6" type="text" for="mobileNumber" placeholder="Mobile Number" required>
+                        <br>
+                    
+                    <br>
+                    <button class="btn-md bton-man" type="submit">Register</button>
+                    
+                </form>
+            </div>
+    
+        </div>
+</body>
+</html>
